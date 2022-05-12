@@ -1,0 +1,106 @@
+:root {
+    --myfont: "Mulish", sans-serif;
+    --my-btn-font: "Montserrat", sans-serif;
+    --lg-lightcolor: linear-gradient(
+      to left,
+      rgba(116, 235, 213, 0.6),
+      rgba(159, 172, 230, 0.6)
+    );
+    --lg-color: linear-gradient(to left, #74ebd5, #9face6);
+  }
+  
+  .Main {
+    color: #4bc676;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: medium;
+    margin-top: 25px;
+  }
+  
+  input {
+    width: 50%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    display: block;
+    font-family: var(--myfont);
+    font-size: 14px;
+    padding: 12px;
+  }
+  
+  .form {
+    margin: 20px;
+  }
+  
+  .form > button {
+    background: #06c432;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    display: block;
+    font-family: var(--my-btn-font);
+    font-size: 16px;
+    padding: 15px;
+    margin-top: -50px;
+    margin-left: 80%;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 1s ease;
+  }
+  
+  h3 {
+    border: 2px solid #000000;
+    border-radius: 8px;
+    font-size: 1.1em;
+    text-align: left;
+    width: 100%;
+    padding: 16px;
+    color: #000000;
+    box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05),
+      0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+    display: block;
+  }
+  
+  .btn-delete {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: -5.5%;
+    color: #ff0000;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .btn-edit {
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    margin-top: -5.5%;
+    color: #06c432;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+  }
+  
+  .btn-delete .deleteIcon {
+    font-size: 2.5rem;
+  }
+  .btn-edit .editIcon {
+    font-size: 2.5rem;
+  }
+  .btn-delete:hover {
+    background-color: #f5ba13;
+  }
+  
+  .btn-edit:hover {
+    background-color: #f5ba13;
+  }
+  
